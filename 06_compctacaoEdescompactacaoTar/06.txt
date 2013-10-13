@@ -1,0 +1,18 @@
+tar -cz workspace - nao funciona, tentar imprimir no terminal
+tar -cz workspace > work.tar.gz - c: create, z: and zip
+ls 
+ls -l - o tar.gz é bem menor que o zip
+rm -r workspace
+tar -xz < work.tar.gz
+ls
+rm work.tar.gz
+tar -czf work.tar.gz workspace - f: não precisa redirecionar
+// o f deve ser o último operador sempre
+ls
+rm -r workspace
+tar -xzf work.tar.gz
+ls
+rm -r workspace
+tar -xvfz work.tar.gz - v: verbose
+tar -cvfz workspace
+tar -tf work.tar.gz - tf: ler arquivos do tar.gz

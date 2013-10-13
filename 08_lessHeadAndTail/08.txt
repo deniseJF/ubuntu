@@ -1,0 +1,11 @@
+//trabalhando com arquivos grandes
+touch google.txt
+vi google.txt - colando txt qualquer
+cat google.txt - o txt é mto grde para ser todo mostrado com o cat ...
+head google.txt - mostra as 10 primeiras linhas
+head -n 3 google.txt - n diz o número de linhas
+tail google.txt - mostra as últimas 10 linhas
+tail -n 2 google.txt - mostra as últimas 2 linhas
+less google.txt
+// o less não precisa ler todo o input para mostrar o texto, sendo útil em arquivos mto grandes.
+// permite usar as setas para ir para baixo ou para cima no texto

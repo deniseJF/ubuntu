@@ -1,0 +1,12 @@
+pwd - mostrar caminho
+ls - lista arquivos
+echo - reproduz o argumento no terminal
+echo Bem vindo - neste caso tem 2 argumentos
+echo "Bem vindo" - neste caso, apenas um argumento, msmo resultado
+echo "Bem vindo" > bemvindo.txt - passa o argumento para um arquivo
+cat bemvindo.txt - Lê o arquivo no terminal
+clear - limpa o terminal
+ls -l - lista os arquivos da pasta, mostrando detalhes. d, se for diretório, tamanho do arquivo, grupo e usuario, último acesso
+ls -la - lista inclusive os arquivos escondidos invisíveis
+man pwd - comando man, para explicações e listar as opções dos comandos
+

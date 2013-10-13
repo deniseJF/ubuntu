@@ -1,0 +1,4 @@
+yy - copia linha
+p - cola linha
+10 yy - copia 10 linhas
+10 p - cola 10 vezes

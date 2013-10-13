@@ -1,0 +1,9 @@
+G - cursor vai para última linha
+1 G - vai para primeira linha
+5 G - vai para a quinta linha
+$ - vai para final da linha atual
+0 - vai para o início da linha atual
+/California - busca a ocorrência da palavra California
+n - busca próxima ocorrência
+N - busca ocorrência anterior
+

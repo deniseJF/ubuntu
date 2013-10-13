@@ -1,0 +1,40 @@
+cd - change directory
+> - sobrescreve arquivo já existente
+>> - concatena no final do arquivo
+ls .. - diretório anterior
+ls . - diretório atual
+mkdir - make directory
+
+history:
+
+  cd ~/Desktop
+  903  cd ~/cursos/caelum/ubuntu1_primeirosPassos/02_maisSobreRedirecionamentoEdiretorios/
+  904  echo "Faithless" > musicas-favoritas.txt
+  905  ls
+  906  echo "REM" > musicas-favoritas.txt 
+  907  cat musicas-favoritas.txt 
+  908  echo "Faithless" >> musicas-favoritas.txt
+  909  cat musicas-favoritas.txt 
+  910  pwd
+  911  cd ..
+  912  cd 02_maisSobreRedirecionamentoEdiretorios/
+  913  ls -la
+  914  ls .
+  915  ls ..
+  916  mkdir workspace
+  917  ls
+  918  cd workspace/
+  919  pwd
+  920  echo "meu primeiro tesete" > arquivo1.txt
+  921  ls
+  922  echo "meu primeiro tesete" > arquivo2.txt
+  923  echo "meu primeiro tesete" > arquivo3.txt
+  924  mkdir projetos-java
+  925  mkdir projetos-php
+  926  cd projetos-java/
+  927  cd ..
+  928  cd projetos-java/
+  929  cd
+  930  ls /
+  931  ls /home
+

@@ -1,0 +1,17 @@
+echo "mensagem" > arquivo.txt //cria ou sobrescreve arquivo
+echo "mensagem" >> arquivo.txt //concatena texto no final do arquivo
+vi google.txt // vi, editor de texto no terminal
+// a navegação é feita com setas
+i - insere no caracter atual em que está o cursor
+esc - sai do modo de edição para o modo de navegação
+:w - write, salvar o arquivo
+:q - quit, sair
+a - insere no caracter seguinte da posição do cursor
+x - remove um caracter
+11 x - apaga 11 caracteres
+:wq - salvar e sair
+dd - remove linha por completo
+:q! - sair e ignorar as mudanças
+! força comando
+A - adicionar/inserir no final da linha
+5 dd - apaga as 5 linhas seguintes

@@ -1,0 +1,32 @@
+mkdir worksapce
+cd workspace
+pwd
+echo "bemvindo" > mensagem.txt
+ls
+cp mensage.txt bemvindo.txt //o cp copia o primeiro arquivo para o segundo
+ls
+cat bemvindo.txt
+cat mensagem.txt
+mv mensagem.txt bemvindo2.txt // o mv pode renomear um arquivo
+ls
+mkdir projetos-java
+mkdir projetos-php
+mv bemvindo.txt projetos-java/ // o mv move o arquivo para a pasta indicada no segundo argumento.
+mv bemvindo.txt projetos-java/bemvindo-novo.txt // além de mover, está renomeando o arquivo.
+ls
+ls projetos-java
+cp bemvindo2.txt bemvindo.txt
+ls
+ls bemvindo2.txt
+ls bemvindo* - passa como argumento para o ls todos os arquivos que começam com "bemvindo"
+ls bemvindo.txt
+ls bemvindo2.txt
+ls projetos-java
+ls projetos-php
+ls bemvindo.txt bemvindo2.txt projetos-java projetos-php
+ls * - passa como argumento todos os arquivos e pastas do diretório corrente
+É diferente de ls puro, que não vai ler os diretórios que estão dentro das pastas.
+ls "*" - procura um arquivo com nome *, o qual não existe na pasta
+cp projetos-java/ projetos-c# - cp não copia diretórios
+cp -r projetos-java/ projetos-c# - cópia recursiva funciona :)
+ls

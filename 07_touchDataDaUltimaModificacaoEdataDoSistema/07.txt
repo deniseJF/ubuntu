@@ -1,0 +1,7 @@
+cd workspace
+ls -la
+touch bemvindo.txt - altera a data de último acesso do arquivo
+ls -la 
+date - retorna a data e hora atual
+touch arquivo.txt - o touch serve tb para criar arquivos
+touch -d "12:00" arquivo.txt - altera a data de acesso para a passada no argumento

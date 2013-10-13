@@ -1,0 +1,18 @@
+cd workspace
+ls
+rmdir projetos-java - rmdir remove diretórios
+rm arquivo3.txt - rm remove arquivos
+cd ..
+rmdir workspace - não funciona, rmdir só deleta diretórios vazios
+cd workspace
+echo "bem vindo" > arquivo10.txt
+cat arquivo1.txt - lê texto do arquivo 1
+cat arquivo2.txt - lê no terminal texto do arquivo 2
+cat arquivo?.txt - lê no terminal os dois textos dos arquivos 1 e 2; o ? representa um caracter qualquer.
+cat arquivo*.txt - lê no terminal todos os arquivos, 1, 2 e 10. O * representa qualquer sequência de caracteres.
+cat *.txt - lê todos os arquivos txt da pasta
+cat "*.txt" - é lido como se o nome do arquivo fosse *.txt, no caso, ele não existe
+cd ..
+rm workspace - não funciona, pois rm é para arquivos e não diretórios
+rm -r workspace - remoção recursiva
+ls

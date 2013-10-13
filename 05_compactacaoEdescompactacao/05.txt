@@ -1,0 +1,19 @@
+pwd
+ls
+cd ..
+zip work.zip workspace - não é recursivo, não copia os arquivos, a penas a pasta workspace
+unzip -l work.zip - mostra os arquivos do zip
+zip -r work.zip workspace
+ls
+unzip work.zip
+rm -r workspace 
+ls
+unzip -q work.zip - quiet, sem output
+ls
+rm work.zip
+zip -rq work.zip workspace
+unzip -l work.zip
+unzip work.zip
+y 
+A
+unzip work.zip -d test - extrai para dentro do diretorio teste
